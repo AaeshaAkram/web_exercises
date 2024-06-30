@@ -1,0 +1,58 @@
+/*CSS format
+Selector{
+	property:value;
+}*/
+
+*{
+	text-align: right;
+}
+
+body {
+    background-image: url('backgroundi2_2.jpg');
+    background-size: cover;
+}
+
+
+p{
+	color:#983352;
+	text-align: center;
+	/*border:5px dashed purple;*/
+	border:5px solid rgba(184, 122, 141, 0.5); /*opacity rgba is used*/
+	cursor:pointer;
+}
+p{
+	line-height:5px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 100%;
+ 	font-family: "Poiret One", cursive;
+}
+img{
+	float:right;
+}
+
+footer{
+	clear:both;
+	text-align: center;
+}
+
+li{
+	list-style:none;
+	display:inline-block;
+}
+
+.webtext:first-child{
+	border: 5px dashed maroon;
+}
+
+.active{
+	color: red;
+}
+
+#div1{
+	background:rgba(120, 1, 37, 0.2);
+}
+
+#div2{
+	background:rgba(0, 0, 255, 0.2);
+}
